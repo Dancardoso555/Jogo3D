@@ -243,6 +243,54 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!143 &773755110
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773755106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &773755112
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773755106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 26.111454
+  m_Height: 192.58507
+  m_Direction: 1
+  m_Center: {x: 0, y: 95.792534, z: -19.291813}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,13 +376,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9999438, z: -0, w: 0.010602411}
-  m_LocalPosition: {x: 35.4, y: 128, z: 339.1}
+  m_LocalRotation: {x: -0.043177076, y: -0.0034343586, z: -0.0049231155, w: -0.9990494}
+  m_LocalPosition: {x: 46.2, y: 220.2, z: -76.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -178.785, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.947, y: -359.581, z: 0.583}
 --- !u!1001 &2117833309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,6 +442,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4956262cfd1a6c84d89e960a94986570, type: 3}
       insertIndex: -1
       addedObject: {fileID: 773755107}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4956262cfd1a6c84d89e960a94986570, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773755110}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4956262cfd1a6c84d89e960a94986570, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773755112}
   m_SourcePrefab: {fileID: 100100000, guid: 4956262cfd1a6c84d89e960a94986570, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
