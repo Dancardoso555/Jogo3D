@@ -1258,6 +1258,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 615717808842503567, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
   m_PrefabInstance: {fileID: 450172291215297097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1691025293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3582731735575685812, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
+  m_PrefabInstance: {fileID: 450172291215297097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!215 &1691025297
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691025293}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 1
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &1700883762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2977596553713462440, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
+  m_PrefabInstance: {fileID: 450172291215297097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!215 &1700883767
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700883762}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 1
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &1932596482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9103117044631774076, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
@@ -1665,7 +1741,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 51.434006
+  m_Range: 41.5278
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2465,9 +2541,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5325729925175944999, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 338383090}
+    - targetCorrespondingSourceObject: {fileID: 3582731735575685812, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1691025297}
     - targetCorrespondingSourceObject: {fileID: 33566016417028565, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 686632221}
+    - targetCorrespondingSourceObject: {fileID: 2977596553713462440, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700883767}
   m_SourcePrefab: {fileID: 100100000, guid: 5fae35493db292f4290334c2f7a8eabe, type: 3}
 --- !u!1001 &3001359875982963894
 PrefabInstance:
