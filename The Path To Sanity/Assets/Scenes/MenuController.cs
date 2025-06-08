@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
     public VideoPlayer videoPlayer;
     public GameObject menuOpcoes, rawImage;
     private Animator animatorRawImage;
+    public AudioSource selectSound;
 
 
 
@@ -27,6 +28,7 @@ public class MenuController : MonoBehaviour
     {
         if (!videoPlayer.isPlaying && Input.anyKeyDown)
         {
+            selectSound.Play();
             videoPlayer.Play();
             animatorRawImage.SetTrigger("fadeIn");
             rawImage.SetActive(true);
