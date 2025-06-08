@@ -1,6 +1,7 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class MenuController : MonoBehaviour 
@@ -8,7 +9,8 @@ public class MenuController : MonoBehaviour
 
 
     public VideoPlayer videoPlayer;
-    public GameObject menuOpcoes;
+    public GameObject menuOpcoes, rawImage;
+    private Animator animatorRawImage;
 
 
 
@@ -16,7 +18,8 @@ public class MenuController : MonoBehaviour
 
     void Start()
     {
-
+        rawImage.SetActive(false);
+        animatorRawImage = rawImage.GetComponent<Animator>();
     }
 
 
@@ -25,6 +28,8 @@ public class MenuController : MonoBehaviour
         if (!videoPlayer.isPlaying && Input.anyKeyDown)
         {
             videoPlayer.Play();
+            animatorRawImage.SetTrigger("fadeIn");
+            rawImage.SetActive(true);
             menuOpcoes.SetActive(true);
         }
     }
