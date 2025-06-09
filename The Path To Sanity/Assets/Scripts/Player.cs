@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
         {
             isPicking = true;
             anim.SetTrigger("isPicking"); // Ativa animação de ataque (trigger)
+            isPicking = false;
         }
 
         // ----------- ROTACIONA O PLAYER COM O MOUSE (CÂMERA) ----------------
