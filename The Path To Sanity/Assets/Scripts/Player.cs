@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     private CharacterController controller;
 
     // Velocidade de movimento
-    public float speed = 5f;
+    public float speed = 50f;
 
     // Força do pulo
     public float jumpForce = 8f;

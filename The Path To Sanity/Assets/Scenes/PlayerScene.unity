@@ -287,10 +287,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 26.111454
-  m_Height: 192.58507
+  m_Radius: 22.418213
+  m_Height: 192.5851
   m_Direction: 1
-  m_Center: {x: 0, y: 95.792534, z: -19.291813}
+  m_Center: {x: 0, y: 95.79254, z: 3.9332075}
 --- !u!4 &773755113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4956262cfd1a6c84d89e960a94986570, type: 3}
@@ -308,10 +308,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 982f39c120e02b449aac58b1be6393a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 773755110}
   speed: 50
   jumpForce: 8
   gravity: -9.81
-  cameraTransform: {fileID: 0}
+  cameraTransform: {fileID: 963194228}
   mouseSensitivity: 2
 --- !u!1 &963194225
 GameObject:
