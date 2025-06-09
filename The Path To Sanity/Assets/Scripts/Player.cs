@@ -51,9 +51,12 @@ public class Player : MonoBehaviour
         // ----------- ATAQUE ----------------------
         if (Input.GetButtonDown("Fire1") && !isPicking)
         {
-            isPicking = true;
-            anim.SetTrigger("isPicking"); // Ativa animação de ataque (trigger)
-            isPicking = false;
+            anim.SetBool("isPicking", true);
+        }
+
+        else
+        {
+            anim.SetBool("isPicking", false);
         }
 
         // ----------- ROTACIONA O PLAYER COM O MOUSE (CÂMERA) ----------------
