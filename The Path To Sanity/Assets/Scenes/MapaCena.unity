@@ -1949,10 +1949,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 16.781956
+  m_Radius: 19.632296
   m_Height: 197.3307
   m_Direction: 1
-  m_Center: {x: 0, y: 98.16535, z: 2.0379524}
+  m_Center: {x: 2.8503418, y: 98.16535, z: 2.037953}
 --- !u!143 &1176075305
 CharacterController:
   m_ObjectHideFlags: 0
